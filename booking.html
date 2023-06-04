@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        var a=Document.getElementbyId("p");
+        if(a=="Ground floor"){
+            inner.html="<input type="int" placeholder="between 1 to 99"name="room"Required>";
+        }
+    </script>
+    <style>
+    button{
+        background-color: black;
+        color: white;
+        font-size: 25px;
+    }
+    p{margin-left: 1290px;
+    font-size: ;}
+    table input{background-color: white;}
+    table tr td input{font-size: 25px;}
+    table th{padding-bottom: 45px;
+        padding-top: 14px;}
+    div{font-size: 30px;}
+    table{background-color: rgb(4, 6, 3);
+        padding-inline-start: 12px;
+        padding-inline-end: 12px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border-radius: 50px;
+    font-size: 35px;}
+    body{background-image: url("1st.jpg");
+    background-size: 1534px 800px;
+    color: whitesmoke;}
+</style>
+<script>
+    
+</script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p><a href="booked.html" align="right"><button type="button">Already Booked</button></a></p><br><br><br><br><br>    <center><form action="hotel.php" method="post"><table><tr><th colspan="2"><center><u>Please fill these details to take next step</u></th></td></center>
+        <tr><tr><tr><tr><tr><tr><td>Name:<td><input type="text" name="name" placeholder="name"Required><br>
+        <tr><td>Mobile Number:<td><input type="int" name="mobile" placeholder="mobile"Required><br>
+        <tr><td>Location:<td><input type="text" name="location" placeholder="location"Required><br>
+        <tr><td>Age:<td><input type="int" name="age" placeholder="age"Required><br>
+        <tr><td>floor:<td><div id="p"><input type="radio" name="floor"Required  value="Ground floor">Ground floor
+            <input type="radio" name="floor" value="1st floor">1st floor
+            <input type="radio" name="floor" value="2nd floor">2nd floor</div> </tr>
+        <tr><td>Room no.</td><td ><input type="int" placeholder="Room no"name="room"Required></td></tr>
+        <tr><td><td><input type="submit" value="Make Payment"></td></tr>
+    </form></center></table>
+</body>
+</html>
